@@ -1,7 +1,6 @@
 /*
-* Template Name: Design
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
+* Template Author: Haroon Arfan
+* Tempalte URI: https://haroonarfan.github.io/
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 html {
@@ -545,7 +544,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     width: 100%;
     bottom: -20px;
     left: -50px;
-    position: absolute; }
+    position: absolute; 
+    border-radius: 10px;
+  }
 
 .feature .icon-wrap {
   position: relative; }
