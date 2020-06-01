@@ -2251,3 +2251,11 @@ iframe {
         border-radius: 0
     }
 }
+#comments-feed{
+    padding: 0 90px;
+}
+@media (max-width:480px){
+    #comments-feed{
+        padding: 0 10px;
+    }
+}
