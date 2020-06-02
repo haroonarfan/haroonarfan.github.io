@@ -526,3 +526,8 @@ background-image: linear-gradient(234deg,#394245,#000);
     margin-right: 2%;
 }
 }
+@media (max-width: 479px){
+    .item-wrap article {
+    width: calc(100% - 50px);
+}
+}
