@@ -1,6 +1,6 @@
 ## Welcome to *Tricks You Need* Repository
 
-You can visit the website [here](https://tricksyouneed.tk) preview the content of the website.
+You can visit the website [here](haroonarfan.github.io) preview the content of the website.
 
 
 ### Support or Contact
