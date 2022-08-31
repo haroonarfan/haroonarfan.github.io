@@ -103,7 +103,7 @@ color: var(--color-font);
 }
 :root {
 
---color-details: #2821fc;
+--color-details: rgb(37 78 84);
 
 }
 :root {
