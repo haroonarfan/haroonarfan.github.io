@@ -477,11 +477,11 @@ background-image: linear-gradient(234deg,#394245,#000);
 }
 
 .logo a{
-    color: #1264fa;
+    color: rgb(62 187 207);
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #007bff;
+    color: rgb(62 187 207);
     text-decoration: none;
     background-color: transparent;
 }
