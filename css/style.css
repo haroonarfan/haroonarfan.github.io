@@ -535,6 +535,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     bottom: -70px;
     z-index: -1;
     background: #dae1e7; }
+    @media (max-width: 470px) {
+      .hero .bg:before {
+        bottom: -95px !important;
+      }
+    }
   .hero figure {
     position: relative; }
   .hero .quote {
@@ -1055,4 +1060,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .logoText:hover{
   color: rgb(148 190 197);
+}
+
+@media (max-width: 470px) {
+  .jaja1 {
+    bottom: -85px !important;
+    left: -46px !important;
+    position: relative !important;
+    border-radius: 10px !important;
+    margin-top: -255px !important;
+  }
 }
